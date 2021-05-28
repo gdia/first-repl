@@ -6,3 +6,7 @@ print(answer)
 
 my_secret = os.environ['top']
 print(my_secret)
+
+# Print comprehensive list
+c_list=[x * 2 for x in range(5)]
+print(c_list)
